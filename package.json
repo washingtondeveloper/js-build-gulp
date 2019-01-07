@@ -1,0 +1,22 @@
+{
+  "name": "js-build-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [],
+  "author": "washington",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.1",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-uglify": "3.0.1",
+    "gulp-uglifycss": "1.1.0",
+    "gulp-watch": "5.0.1",
+    "gulp-webserver": "0.9.1",
+    "run-sequence": "^2.2.1"
+  }
+}

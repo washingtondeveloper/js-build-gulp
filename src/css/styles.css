@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 65px;
+    background:linear-gradient(to right, #3802fa, #7455e4);
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.header__title {
+    padding: 5px;
+}
+
+.header__title-description {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main {
+    height: 600px;
+}
+
+.main__description {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 17%;
+    font-size: 55px;
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    background: #7455e4;
+}
+
+.footer__description {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+}
+
